@@ -1,0 +1,28 @@
+<!-- pipe operator | 는 문자열의 형식을 지정하거나, 통화 단위를 병경하고, 날짜나 ㅇ데이터가 표시되는 형식을 변경할 때 사용  -->
+
+<!-- <h2>{{ hero.name | uppercase }} Details</h2>
+<div><span>id:</span>{{ hero.id }}</div>
+<div><span>name:</span>{{ hero.name }}</div>
+ -->
+
+<!-- <div>
+  <label for="name">Hero name:</label>
+  양방향 데이터 바인딩 즉 컴포넌트 클래스에서 화면으로, 그리고 반대 방향인 화면에서 클래스로 전달되어야할때 사용함 문법은 [()]
+  <input type="text" id="name" [(ngModel)]="hero.name" placeholder="name" />
+  ngModel은 FormModule 에서 제공하는 디렉티브 이라서 app.module.ts 에 임포트 해줘야한다.
+</div> -->
+
+<h2>My Heroes</h2>
+<ul class="heroes">
+  <!-- 이벤트 바인딩은 ()로 묶어 준다 -->
+  <!-- 클래스 바인딩은 [class.이름]="참 or 거짓" 참이면 이름을 추가하고 거짓이면 이름을 제거 한다. -->
+  <li
+    *ngFor="let hero of heroes"
+    (click)="onSelect(hero)"
+    [class.selected]="hero === selectedHero"
+  >
+    <span class="badge">{{ hero.id }}</span> {{ hero.name }}
+  </li>
+</ul>
+
+<app-hero-detail [hero1]="selectedHero"></app-hero-detail>

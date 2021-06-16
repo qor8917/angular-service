@@ -1,0 +1,14 @@
+<!-- ngIf 디렉티브는 표현값이 참이면 해당 DOM을 표현하고 거짓이면 DOM을 제거-->
+<div *ngIf="hero1">
+  <h2>{{ hero1.name | uppercase }} Details</h2>
+  <div><span>id:</span> {{ hero1.id }}</div>
+  <div>
+    <label for="hero-name">Hero-name: </label>
+    <input
+      type="text"
+      id="hero-name"
+      [(ngModel)]="hero1.name"
+      placeholder="name"
+    />
+  </div>
+</div>
