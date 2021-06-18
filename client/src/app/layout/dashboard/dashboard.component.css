@@ -1,0 +1,141 @@
+.body {
+  width: 100%;
+  height: 100%;
+
+  background-color: #23234b;
+  /* margin: -8px -8px; */
+}
+
+#renderCanvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.formDiv {
+  display: flex;
+}
+
+.kuka {
+  padding: 10;
+}
+
+.epson1 {
+}
+
+.panel_class {
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+
+  position: absolute;
+  z-index: 100;
+}
+.header {
+  width: 100vw;
+  height: 7.68vh;
+  color: white;
+  float: left;
+}
+.igi_logo {
+  width: 4.79vw;
+  position: absolute;
+  margin: 0.64vh 1.04vw 0 94.16vw;
+}
+
+.control {
+  width: 1.87vw;
+  position: absolute;
+  margin: 2.5vh 94.16vw 0 1.04vw;
+  cursor: pointer;
+}
+
+.panel_view {
+  width: 1.56vw;
+  position: absolute;
+
+  margin-left: 3.69vw;
+
+  cursor: pointer;
+}
+
+.name {
+  position: fixed;
+  font-size: 1.56vw;
+  color: #ffffff;
+  width: 5.72vw;
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.81vh 45.57vw;
+}
+.side_bar {
+  width: 23.64vw;
+  height: 104.4vh;
+  background-color: #ffffff;
+  box-shadow: 6px 0 20px rgba(0, 0, 0, 100%);
+  position: fixed;
+  left: -33.64vw;
+  transition: 0.4s;
+  pointer-events: all;
+}
+.toggle {
+  left: 0;
+}
+.side_header {
+  width: 23.64vw;
+  height: 7.9vh;
+  background-color: #06251e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cancel_icon {
+  width: 2.2vw;
+  margin-left: 0.83vw;
+
+  cursor: pointer;
+}
+.title {
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  font-size: 1.87vw;
+  font-weight: bold;
+  margin-right: 1.04vw;
+
+  color: #ffffff;
+}
+
+.side_footer {
+  width: 23.64vw;
+  height: 16.65vh;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+}
+.contain {
+  font-size: 0.62vw;
+  font-weight: 100;
+  text-align: left;
+  margin: 5.12vh 2.08vw;
+  display: block;
+  line-height: 2.13vh;
+  color: #757575;
+}
+.side_body {
+  width: 23.64vw;
+  height: 72.38vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icons_in_pannel {
+  align-items: center;
+  display: flex;
+}
+
+.margin_top {
+  margin-top: 2.82vh;
+}

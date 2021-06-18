@@ -1,0 +1,124 @@
+body {
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+}
+.content_body {
+  width: 19.47vw;
+  height: 26.47vh;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 23%);
+  border-radius: 8px;
+}
+.layout_1 {
+  width: 13.33vw;
+  height: 26.47vh;
+  position: fixed;
+  border-radius: 8px 0 0 8px;
+  display: inline;
+}
+.op_mode {
+  font-size: 1.04vw;
+  font-weight: bold;
+  margin-top: 1.06vh;
+  text-align: center;
+  color: #054006;
+}
+.line_1 {
+  width: 10.41vw;
+  border: 0.1px solid #cccccc;
+  margin: 1.06vh 0 0 1.45vw;
+}
+.cho_1 {
+  font-size: 0.83vw;
+  font-weight: regular;
+  text-align: center;
+  margin-top: 1.49vh;
+}
+
+.rob {
+  width: 6.89vw;
+  height: 4.27vh;
+  background-color: #ffffff;
+  border: 1px solid #9a9a9a;
+  border-radius: 4px;
+  margin: 0.53vh 0 0 3.22vw;
+  font-size: 1.04vw;
+  font-weight: medium;
+  color: #1c1c1c;
+  padding: 0 0 0 1.04vw;
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  outline-color: #313131;
+  cursor: pointer;
+}
+
+.line_2 {
+  width: 10.41vw;
+  border: 0.5px dashed#BEBEBE;
+  margin: 1.92vh 0 0 1.45vw;
+}
+.cho_2 {
+  font-size: 0.83vw;
+  font-weight: regular;
+  text-align: center;
+  margin-top: 1.49vh;
+}
+
+.layout_2 {
+  width: 6.14vw;
+  float: right;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.ready_body {
+  width: 6.14vw;
+  background-color: #167b66;
+  height: 50%;
+  border-radius: 0 8px 0 0;
+  color: #ffffff;
+}
+.ready_body:hover {
+  background-color: #06251e;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.ready {
+  font-size: 1.04vw;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+}
+.ready_icon {
+  margin-top: 0.42vh;
+  width: 1.56vw;
+}
+.start_body {
+  width: 6.14vw;
+  height: 13.23vh;
+  background-color: #0a3a30;
+  display: inline;
+  position: absolute;
+  margin: 13.23vh 0 0 0;
+  border-radius: 0 0 8px 0;
+}
+.start {
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  font-size: 1.04vw;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.start_body:hover {
+  background-color: #06251e;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.start_icon {
+  margin-top: 0.42vh;
+  width: 1.56vw;
+}
+button {
+  cursor: pointer;
+  border: none;
+}

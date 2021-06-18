@@ -1,0 +1,65 @@
+<canvas #rendererCanvas id="renderCanvas"></canvas>
+
+<div class="panel_class">
+  <div class="header">
+    <img src="./assets/imgs/igi_w.png" class="igi_logo" />
+
+    <p class="name">Nestfield</p>
+    <img
+      src="./assets/imgs/remote_2_w.png"
+      class="control"
+      (click)="toggle()"
+    />
+    <ng-container *ngIf="guiStatus === true"
+      ><img
+        src="./assets/imgs/pannel_on.png"
+        class="panel_view margin_top"
+        (click)="handleGUIStatus()"
+    /></ng-container>
+    <ng-container *ngIf="guiStatus === false"
+      ><img
+        src="./assets/imgs/pannel_off.png"
+        class="panel_view margin_top"
+        (click)="handleGUIStatus()"
+    /></ng-container>
+  </div>
+  <div [ngClass]="myClass">
+    <div class="side_header">
+      <div class="icons_in_pannel">
+        <img
+          src="./assets/imgs/cancel_1.png"
+          class="cancel_icon"
+          (click)="close()"
+        />
+        <ng-container *ngIf="guiStatus === true"
+          ><img
+            src="./assets/imgs/pannel_on.png"
+            class="panel_view"
+            (click)="handleGUIStatus()"
+        /></ng-container>
+        <ng-container *ngIf="guiStatus === false"
+          ><img
+            src="./assets/imgs/pannel_off.png"
+            class="panel_view"
+            (click)="handleGUIStatus()"
+        /></ng-container>
+      </div>
+
+      <p class="title">CONTROL PANEL</p>
+    </div>
+    <div class="side_body">
+      <app-panel [mode]="'Init'"></app-panel>
+      <app-panel [mode]="'PnP'"></app-panel>
+    </div>
+    <div class="side_footer">
+      <p class="contain">
+        In this Plug-and-Produce (PnP) system, the three robots and the
+        turntable<br />
+        can communicate with each other through the Asset Administration
+        Shell<br />
+        (AAS) so that in each scenario, any two robots can cooperate with the<br />
+        turntable to finish the production task.
+      </p>
+    </div>
+  </div>
+</div>

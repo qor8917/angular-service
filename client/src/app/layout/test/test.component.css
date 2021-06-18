@@ -1,0 +1,105 @@
+body {
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  width: 100vw;
+  height: 100vh;
+  background-color: #131817;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 7.68vh;
+  background-color: #131817;
+  float: left;
+}
+.igi_logo {
+  width: 4.79vw;
+  position: absolute;
+  margin: 1.38vh 1.04vw 0 94.16vw;
+  display: flex;
+}
+
+.igi_logo_2 {
+  width: 4.79vw;
+  position: absolute;
+
+  display: flex;
+}
+.name {
+  position: fixed;
+  font-size: 1.56vw;
+  color: #ffffff;
+  width: 5.72vw;
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.81vh 45.57vw;
+}
+.side_bar {
+  width: 23.64vw;
+  height: 104.4vh;
+  background-color: #ffffff;
+  box-shadow: 6px 0 20px rgba(0, 0, 0, 100%);
+  position: fixed;
+  left: -23.64vw;
+  transition: 0.4s;
+}
+.control_icon {
+  width: 1.87vw;
+  margin: 0.88vh 0 0 0.72vw;
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+}
+.side_header {
+  width: 23.64vw;
+  background-color: #06251e;
+  display: flex;
+}
+.cancel_icon {
+  width: 1.87vw;
+  margin: 1.85vh 0 0 0.83vw;
+  display: flex;
+}
+.title {
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  font-size: 1.87vw;
+  font-weight: bold;
+  display: inline;
+  float: right;
+  margin: 1.28vh 1.04vw 0 0;
+  color: #ffffff;
+}
+
+.side_footer {
+  width: 23.64vw;
+  height: 16.65vh;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+}
+.contain {
+  font-size: 0.62vw;
+  font-weight: 100;
+  text-align: left;
+  margin: 5.12vh 2.08vw;
+  display: block;
+  line-height: 2.13vh;
+  color: #757575;
+}
+.side_body {
+  width: 23.64vw;
+  height: 72.38vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.toggle {
+  left: 0;
+}

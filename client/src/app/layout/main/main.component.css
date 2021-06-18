@@ -1,0 +1,109 @@
+.body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+}
+.header {
+  width: 100%;
+  height: 72px;
+}
+
+.igi_logo_w {
+  width: 4.79vw;
+  position: absolute;
+  margin: 0.64vh 0 0 0.83vw;
+}
+.back_top {
+  width: 50vw;
+  height: 102.48vh;
+  position: fixed;
+  margin: -54.65vh 0 0 -26.66vw;
+}
+.back_under {
+  width: 91.14vw;
+  height: 191.63vh;
+  position: fixed;
+  margin: 4.34vh 0 0 53.58vw;
+}
+.s_title {
+  width: 15.1vw;
+  margin: 0 0 2.98vh 0.35vw;
+}
+.sub_body {
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  margin: 18.78vh 0 0 1.25vw;
+  width: 67.25vw;
+  height: 46.97vh;
+}
+.txt_all {
+  width: 33.3vw;
+  height: 46.97vh;
+  margin: 0 0 0 11.04vw;
+  display: inline-block;
+  float: left;
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+}
+.main_txt {
+  font-family: "Volkswagen Serial";
+  width: 33.54vw;
+  height: 14.51vh;
+  margin-top: -3.84vh;
+}
+.main_txt_1 {
+  font-size: 5.62vw;
+  font-weight: bold;
+  color: #232323;
+  margin: 0;
+  display: inline-flex;
+}
+.main_txt_2 {
+  font-size: 5.62vw;
+  font-weight: bold;
+  color: #ff7a39;
+  margin: 0 0 0 -0.62vw;
+  display: inline-flex;
+}
+
+.sub_txt {
+  font-size: 1.45vw;
+  font-weight: regular;
+  color: #232323;
+  line-height: 5.12vh;
+  margin: 2.13vh 0 5.55vh 0.31vw;
+  margin-left: 0.31vw;
+}
+.sub_txt_bold {
+  font-weight: bold;
+}
+.go_btn {
+  width: 12.08vw;
+  height: 6.4vh;
+  background-color: rgb(14, 80, 66);
+  margin: 0 0 0 0.31vw;
+  border: none;
+  font-family: "Volkswagen Serial", "noto-sans", "sans-serif";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.04vw;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.go_btn:hover {
+  color: rgb(14, 80, 66);
+  border: 2px solid rgb(14, 80, 66);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.go_btn:focus {
+  background-color: rgb(14, 80, 66);
+  color: #ffffff;
+  border-color: rgb(14, 80, 66);
+}
+
+.main_img {
+  width: 30.1vw;
+  display: flex;
+  position: absolute;
+  margin: -11.52vh 0 0 56.58vw;
+}

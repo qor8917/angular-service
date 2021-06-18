@@ -1,0 +1,55 @@
+<div class="content_body">
+  <div class="layout_1">
+    <ng-container *ngIf="mode === 'Init'">
+      <div class="op_mode">OPERATION MODE</div></ng-container
+    >
+    <ng-container *ngIf="mode === 'PnP'">
+      <div class="op_mode">PnP MODE</div></ng-container
+    >
+
+    <div class="line_1"></div>
+    <div class="cho_1">Choose Robot 1 (1 or 2)</div>
+
+    <div class="container">
+      <div class="select_container">
+        <select
+          name="cho_rob"
+          class="rob"
+          (change)="updateChange(0,$event.target.value)"
+        >
+          <option value="select" selected disabled>SELECT</option>
+          <option value="KUKA">KUKA</option>
+          <option value="epson1">EPSON1</option>
+          <option value="epson2">EPSON2</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="line_2"></div>
+    <div class="cho_2">Choose Robot 3</div>
+    <div class="select_container">
+      <div class="container">
+        <select
+          name="cho_rob"
+          class="rob"
+          (change)="updateChange(1,$event.target.value)"
+        >
+          <option value="select" selected disabled>SELECT</option>
+          <option value="KUKA">KUKA</option>
+          <option value="epson1">EPSON1</option>
+          <option value="epson2">EPSON2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="layout_2">
+    <button type="button" alt="" class="ready_body" (click)="ready()">
+      <div class="ready">READY</div>
+      <img src="./assets/imgs/ready_1.png" class="ready_icon" />
+    </button>
+    <button type="button" alt="" class="start_body" (click)="start()">
+      <div class="start">START</div>
+      <img src="./assets/imgs/start_1.png" class="start_icon" />
+    </button>
+  </div>
+</div>

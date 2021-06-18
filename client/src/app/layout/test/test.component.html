@@ -1,0 +1,31 @@
+<div class="panel_class">
+  <div class="header">
+    <img src="./assets/imgs/igi_w.png" class="igi_logo" />
+    <img src="./assets/imgs/control_1.png" class="igi_logo_2" />
+    <p class="name" (click)="toggle()">Nestfield</p>
+  </div>
+  <div [ngClass]="myClass">
+    <div class="side_header">
+      <img
+        src="./assets/imgs/cancel_1.png"
+        class="cancel_icon"
+        (click)="close()"
+      />
+      <p class="title">CONTROL PANEL</p>
+    </div>
+    <div class="side_body">
+      <app-panel [mode]="'Init'"></app-panel>
+      <app-panel [mode]="'PnP'"></app-panel>
+    </div>
+    <div class="side_footer">
+      <p class="contain">
+        In this Plug-and-Produce (PnP) system, the three robots and the
+        turntable<br />
+        can communicate with each other through the Asset Administration
+        Shell<br />
+        (AAS) so that in each scenario, any two robots can cooperate with the<br />
+        turntable to finish the production task.
+      </p>
+    </div>
+  </div>
+</div>

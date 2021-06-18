@@ -1,0 +1,25 @@
+spring:
+  jmx:
+    enabled: false
+
+  data:
+    mongodb:
+#      database: nest_db
+#      port: 27017
+
+
+      database: ori_db      
+      host: mongodb
+      username: ori_db.ori_user
+      password: "!g!k0r2a@"
+
+      
+  rabbitmq:     
+    host: 3.35.69.248
+    username : admin
+    password : admin
+#    host: 49.50.173.128
+#    username : shinwoo1
+#    password : shinwoo1
+      
+
